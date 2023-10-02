@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow"><link rel="canonical" href="https://bootstrap5.ru/examples/product">
+    <meta name="docsearch:language" content="ru">
+    <meta name="docsearch:version" content="5.0">
+    <title>Бесплатный bootstrap 5 шаблон - Продукт</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootstrap5.ru/css/docs.css">
+    <link rel="stylesheet" href="style.css">
+  
+    <link href="/css/examples/product.css" rel="stylesheet"><meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+  </head>
+
+  <body>
+    <nav class="site-header sticky-top py-1">
+      <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2" href="index.html">
+          <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <a class="py-2 d-none d-md-inline-block" href="index.html">Main</a>
+        <a class="py-2 d-none d-md-inline-block" href="product.html">Product</a>
+        <a class="py-2 d-none d-md-inline-block" href="support.html">Support</a>
+        <a class="py-2 d-none d-md-inline-block" href="cart.html">Cart</a>
+      </div>
+    </nav>
+
+
+      <div class="container">
+          <div class="row">
+            <div class="col-md-8 order-md-1">
+              <h4 class="mb-3">Make an order</h4>
+              <form class="needs-validation" novalidate="">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="firstName">Name</label>
+                    <input type="text" class="form-control" id="FirstName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Name is required.
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="lastName">Surname</label>
+                    <input type="text" class="form-control" id="LastName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Surname is required.
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="mb-3">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Need a valid email.
+                  </div>
+                </div>
+    
+                <div class="mb-3">
+                  <label for="Destination">Address</label>
+                  <input type="text" class="form-control" id="Destination" placeholder="New York" required="">
+                  <div class="invalid-feedback">
+                    Need a valid Address.
+                  </div>
+                </div>
+    
+                <div class="row">
+                  <div class="col-md-5 mb-3">
+                    <label for="country">Technic</label>
+                    <select class="custom-select d-block w-100" id="country" required="">
+                      <option value="">Выбрать...</option>
+                      <option>Mac</option>
+                      <option>Iphone</option>
+                      <option>AirPods</option>
+                      <option>Watch</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid Technic.
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="mb-4">
+                <input class="btn btn-primary btn-lg btn-block" value="Make an order" type="submit">
+              </form>
+            </div>
+          </div>
+    
+        <script src="script.js"></script>
+  </body>
